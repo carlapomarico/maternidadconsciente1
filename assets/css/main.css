@@ -801,10 +801,10 @@ section,
 .section-title p {
   color: var(--heading-color);
   margin: 0;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight:600;
   font-family: var(--nav-font);
-  text-transform: uppercase;
+  
 }
 
 /*--------------------------------------------------------------
