@@ -11,10 +11,13 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
+
+
 :root {
-  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway", sans-serif;
-  --nav-font: "Poppins", sans-serif;
+  --default-font: "Fuente2","Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Fuente2", "Raleway", sans-serif;
+  --nav-font: "Mifint1","Poppins", sans-serif;
 }
 
 /* Global Colors */
@@ -64,6 +67,20 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
+@font-face {
+  font-family: Mifint1;
+  src: url(../Fonts/CamelliaSignatureDEMO!-DEMO!.ttf);
+}
+
+@font-face {
+  font-family: Fuente2 ;
+  src: url(../Fonts/Montserrat-Medium.ttf);
+}
+
+
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
@@ -184,7 +201,7 @@ h6 {
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 300;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1854,6 +1871,3 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
