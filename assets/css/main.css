@@ -17,7 +17,7 @@
 :root {
   --default-font: "Fuente2","Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Fuente2", "Raleway", sans-serif;
-  --nav-font: "Mifint1","Poppins", sans-serif;
+  --nav-font: "Fuente1","Poppins", sans-serif;
 }
 
 /* Global Colors */
@@ -70,7 +70,7 @@
 
 
 @font-face {
-  font-family: Mifint1;
+  font-family: Fuente1;
   src: url(../Fonts/CamelliaSignatureDEMO!-DEMO!.ttf);
 }
 
